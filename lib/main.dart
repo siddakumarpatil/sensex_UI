@@ -60,6 +60,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ],
               ),
+              Padding(
+                padding: const EdgeInsets.only(top: 17.0, bottom: 10.0),
+                child: Text(
+                  'Summary',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 22,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -251,17 +262,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
                 ],
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 17.0, bottom: 10.0),
-                child: Text(
-                  'Summary',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 22,
-                  ),
-                  textAlign: TextAlign.center,
-                ),
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 17.0, bottom: 10.0),
