@@ -1,6 +1,6 @@
 # assignment
 
-A new Flutter application.
+Just a Sensex UI Page!
 
 ## Getting Started
 
